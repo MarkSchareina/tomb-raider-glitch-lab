@@ -1,0 +1,216 @@
+{
+  "id": "tr3r-nevada-setup",
+  "revision": 1,
+  "language": "en",
+  "approval": {
+    "status": "approved",
+    "date": "2026-09-28",
+    "approved_by": "user",
+    "scope": "Keyboard-only positioning, 10 lower angle buffers, flare climb and visible sink into crouch. The user reported success and adopted this sequence as the Setup. The subsequent slide/load was not separately measured for this revision.",
+    "evidence": "research/tr3r/nevada/archive/NV-005-hollow-to-crouch.md"
+  },
+  "status": "Setup approved · video and step screenshots available",
+  "video": {
+    "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/videos/tr3-nevada-setup-quick-quad-access.mp4",
+    "poster": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/overview.jpg",
+    "title": "TR3R Nevada — Quick Quad Access Setup"
+  },
+  "summary": "Create the slope save, follow the keyboard-only Setup and complete the slide/load transition. Screenshots cover every step and the final upper-platform result.",
+  "intro": "Create the slope save, prepare and save the elevated crouch, then load the slope save, start sliding and reload the crouch save to reach the upper platform.",
+  "steps": [
+    [
+      "Create the slope save",
+      "Go to the opposing slope used for the slide/load transition. Position Lara so that you can move onto it and start sliding after loading. Save this starting position before leaving the slope. Keep this slope save separate from the elevated crouch save you will create later."
+    ],
+    [
+      "Move to the aligned hollow",
+      "After creating the slope save, move to the hollow and pull up onto the small ledge. Start from the demonstrated aligned position facing the hollow. An arbitrary position in the hollow is not sufficient. Use the image to identify the aligned starting position; numerical reference values are listed under Measurements below."
+    ],
+    [
+      "4 backward hops, then 1 roll",
+      "Tap Back 4 separate times and let each backward hop finish. Do not press Jump. Perform 1 roll and let it finish."
+    ],
+    [
+      "Walk forward in 3 groups",
+      "Take 9 walking steps in the following sequence:"
+    ],
+    [
+      "Set the lower angle with 10 inventory buffers",
+      "Open the inventory. Perform 1 Left buffer → 1 idle buffer → 6 Left buffers → 2 idle buffers. Do not add extra idle buffers. Each buffer starts and ends in the inventory. A Left buffer holds Left on reopening; an idle buffer uses no direction."
+    ],
+    [
+      "Perform 28 flare pickups",
+      "Draw a fresh flare and immediately start the crouch/drop/pickup chain. Count each pickup. During the 28th pickup, open the inventory before the animation finishes. This is the upper pickup checkpoint for the crouch buffers in the next step."
+    ],
+    [
+      "Buffer until Lara visibly sinks into crouch",
+      "Apply crouch inventory buffers until Lara visibly sinks into a crouched position. The confirmed manual run needed 15 buffers. The count can vary depending on when you paused the pickup, so use the visible sink as your stopping cue."
+    ],
+    [
+      "Save the crouched state",
+      "Save the elevated crouched state separately from the slope save. Remember this crouch save: after loading the slope save and starting to slide, you will load this previously saved state again."
+    ],
+    [
+      "Load the slope save",
+      "Load your prepared save at the opposing slope. Keep the previously saved elevated crouch state available for the final load."
+    ],
+    [
+      "Start sliding",
+      "Move onto the opposing slope and let Lara actually enter the sliding state. Standing at the slope is not sufficient."
+    ],
+    [
+      "While sliding, reload the previously saved crouch state",
+      "While Lara is actually sliding, load the elevated crouch state you saved before loading the slope save. This returns to that earlier saved state with the slide/load transition, used to reach the upper platform."
+    ]
+  ],
+  "details": [
+    [
+      "What one inventory buffer means",
+      "With the inventory fully open, tap Esc and release it. During closing, press Esc again with the required input until the inventory reopens; then release. Use Left for angle buffers, no direction for idle buffers, and Crouch for upper buffers. The tested bridge used parameter 180 ms and a 60 ms initial Esc phase, observed as 2 game frames per buffer. These tool timings are not universal real-time guarantees."
+    ],
+    [
+      "What was confirmed",
+      "The agent trial and the player following the instructions reached the same lower position. The 10 lower angle buffers were confirmed automatically and manually. The player confirmed visible sinking after exactly 15 upper crouch buffers; read-only measurements confirmed state 71, animation 222, a 40-unit downward movement and 33 units of wall clearance. The player subsequently reported success and approved this Setup on 28 September 2026."
+    ],
+    [
+      "Slide/load continuation and verification scope",
+      "The full sequence is: save the elevated crouch, load the opposing-slope save, start sliding, then reload the previously saved crouch state. The player completed this sequence for the screenshot walkthrough and supplied the final upper-platform image. That final position is visually documented; the slide/load transition itself was not separately measured with telemetry in this capture session. The onward route to the quad remains unverified."
+    ],
+    [
+      "Input-only validation and automation",
+      "The confirmed Setup used keyboard inputs without position or yaw writes. The agent did not overwrite saves. The older Lua runner implements historical trials; approval of this manual Setup does not establish live validation of that runner."
+    ],
+    [
+      "Technical reference: pickup timing and buffer counts",
+      "The manual run started at pickup frame 8701 and reached crouch after 15 buffers. The automated run started at frame 8693 and needed 19 buffers. These frame numbers come from read-only telemetry and are not visible during normal play. They explain the different counts; the player-facing stopping cue is the visible sink into crouch."
+    ]
+  ],
+  "measurements": [
+    [
+      "Aligned hollow",
+      "46181 / -5133 / 54245",
+      "-32768",
+      "2 / 103"
+    ],
+    [
+      "Lower positioning checkpoint",
+      "46181 / -3681 / 58800",
+      "0",
+      "2 / 103"
+    ],
+    [
+      "After 10 lower buffers",
+      "46181 / -3681 / 58800",
+      "-3236",
+      "2 / 103"
+    ],
+    [
+      "Upper pickup, manual",
+      "45089 / -3840 / 60941",
+      "-3236",
+      "67 / 312 / frame 8701"
+    ],
+    [
+      "Confirmed crouch, manual",
+      "45089 / -3800 / 60941",
+      "-3236",
+      "71 / 222 / frame 6675"
+    ]
+  ],
+  "step_images": [
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/01-create-slope-save.jpg",
+      "alt": "Lara standing on a narrow slope beside the rock wall, facing the fenced compound."
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/02-aligned-hollow.jpg",
+      "alt": "Lara aligned on the small ledge, facing into the rocky hollow.",
+      "capture_language": "none",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/03-four-backward-hops-and-roll.jpg",
+      "alt": "Lara after 4 backward hops and a roll, facing along the slope toward the fenced compound.",
+      "capture_language": "none",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/04-three-walking-groups.jpg",
+      "alt": "Lara at the lower positioning checkpoint after 3 groups of 3 walking steps.",
+      "capture_language": "none",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/05-lower-angle.jpg",
+      "alt": "Lara at the lower checkpoint after the 10 angle buffers.",
+      "capture_language": "none",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/06-upper-pickup-en.jpg",
+      "alt": "Upper flare pickup paused in the English inventory.",
+      "capture_language": "en",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/07-crouch-after-buffers-en.jpg",
+      "alt": "Elevated crouch after the upper buffers, paused in the English inventory.",
+      "capture_language": "en",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/08-save-crouched-state.jpg",
+      "alt": "English Save Game menu opened for saving the elevated crouch state.",
+      "capture_language": "en",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/09-load-slope-save.jpg",
+      "alt": "English Load Game menu with the prepared slope save selected.",
+      "capture_language": "en",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/10-start-sliding.jpg",
+      "alt": "Lara sliding beside the rock wall near the fenced compound.",
+      "capture_language": "none",
+      "review_status": "ready"
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/11-reload-crouch-save.jpg",
+      "alt": "English Load Game menu opened during the slide, with the previously saved crouch state selected.",
+      "capture_language": "en",
+      "review_status": "ready"
+    }
+  ],
+  "step_lists": {
+    "4": [
+      "Hold Walk + Forward for 3 walking steps, release and come to a complete stop.",
+      "Hold Walk + Forward for 3 walking steps, release and come to a complete stop.",
+      "Hold Walk + Forward for 3 walking steps, release and come to a complete stop."
+    ]
+  },
+  "step_notes": {
+    "4": "Do not walk all 9 steps continuously. After the 3rd group, Lara is at the lower positioning checkpoint, ready for angle adjustment."
+  },
+  "result": {
+    "title": "Result: upper platform reached",
+    "text": "After loading the crouch save during the slide, Lara reaches the upper platform beside the fenced compound. Compare your position with the image below.",
+    "image": {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/12-result-upper-platform.jpg",
+      "alt": "Lara standing on the upper rocky platform beside the top of the metal fence."
+    }
+  },
+  "intro_images": [
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/overview.jpg",
+      "alt": "Lara beside the rock wall overlooking the fenced compound and surrounding Nevada cliffs.",
+      "caption": "Starting area: beside the fenced compound."
+    },
+    {
+      "src": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/overview-result.jpg",
+      "alt": "Lara on the upper rock ledge looking down across the fenced compound.",
+      "caption": "Result: on the upper platform above the fence."
+    }
+  ]
+}

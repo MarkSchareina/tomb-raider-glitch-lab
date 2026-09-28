@@ -1,0 +1,50 @@
+[
+  {
+    "path": "glitches/flare-climb-slide-load",
+    "type": "Glitch",
+    "title": "Flare Climb + Slide-Load",
+    "game": "TR3R",
+    "level": "Multiple levels",
+    "technique": "Flare Climb + Slide-Load",
+    "status": "Confirmed in listed applications",
+    "summary": "Prepare an elevated crouch save, establish a slide, then load. TR1R and TR2R remain untested.",
+    "tags": [
+      "flare",
+      "crouch",
+      "inventory buffer",
+      "save load"
+    ]
+  },
+  {
+    "path": "glitches/flare-climb-slide-load/tr3r/temple-mudslide",
+    "type": "Application",
+    "title": "Mudslide",
+    "game": "TR3R",
+    "level": "Temple Ruins",
+    "technique": "Flare Climb + Slide-Load",
+    "status": "Published reproduction",
+    "summary": "Climb the mudslide using the prepared crouch and slide-load sequence. Published guide and recordings available.",
+    "tags": [
+      "temple",
+      "mudslide",
+      "video",
+      "flare"
+    ]
+  },
+  {
+    "path": "glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access",
+    "type": "Application",
+    "title": "Quick Quad Access Flare Climb",
+    "game": "TR3R",
+    "level": "Nevada Desert",
+    "technique": "Flare Climb + Slide-Load",
+    "tags": [
+      "nevada",
+      "quad",
+      "platform",
+      "no jump",
+      "flare"
+    ],
+    "guide_source": "guides/nevada-setup.json"
+  }
+]

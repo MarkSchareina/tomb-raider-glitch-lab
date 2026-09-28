@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+
+# Preserve the uncompressed recording locally; publish the compressed copy.
+/docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/tr3-nevada-setup-quick-quad-access-original.mp4

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#222722"/>
+  <rect x="24" y="24" width="912" height="492" rx="12" fill="none" stroke="#42483e" stroke-width="2" stroke-dasharray="10 10"/>
+  <g fill="none" stroke="#e4af61" stroke-width="5" stroke-linejoin="round">
+    <rect x="420" y="172" width="120" height="88" rx="8"/>
+    <circle cx="453" cy="197" r="9"/>
+    <path d="m425 250 32-29 24 20 27-36 27 45"/>
+  </g>
+  <text x="480" y="318" text-anchor="middle" fill="#f4edda" font-family="Segoe UI, sans-serif" font-size="28">Screenshot placeholder</text>
+  <text x="480" y="358" text-anchor="middle" fill="#b8bdaf" font-family="Segoe UI, sans-serif" font-size="20">Step image to be added</text>
+</svg>
