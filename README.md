@@ -97,3 +97,15 @@ Files outside `docs` are not served by Pages but are still visible in a public r
 Edit `content/catalog.json` for titles, game, level, technique, status, search tags and summaries. The same records supply homepage cards and application-page metadata. For entries with `guide_source`, status and summary come from that approved guide source; do not duplicate them in the catalogue. Rebuild with `python tools/build_site.py`. New guide bodies still need a page definition.
 
 The homepage supports text search plus game/type filters without a backend. The complete catalogue remains readable without JavaScript. Level names: Temple Ruins and Nevada Desert (TR3R).
+
+
+## Glitch Lab · Level Inspector
+
+[Open the viewer](docs/tools/ten-viewer/index.html) on the site, or download
+[the standalone HTML](docs/tools/ten-viewer/standalone.html) for offline use.
+Choose or drag a TEN 1.10.1.0 or TR3 PC (.TR2) level into it. The file stays on the user's device.
+
+The single maintained source is `docs/tools/ten-viewer/`. The normal site build
+also generates the offline HTML from those same modules. See the
+[viewer documentation](docs/tools/ten-viewer/README.md) for format support,
+limitations, verification and same-origin iframe integration.

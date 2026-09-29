@@ -6,3 +6,7 @@ Thumbs.db
 
 # Preserve the uncompressed recording locally; publish the compressed copy.
 /docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/tr3-nevada-setup-quick-quad-access-original.mp4
+
+# Viewer QA artifacts and local game inputs are not publication assets.
+/qa/
+*.ten
