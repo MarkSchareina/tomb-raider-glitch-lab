@@ -1,0 +1,121 @@
+{
+  "format": "glitchlab-scene",
+  "version": 1,
+  "title": "CASE-0016 · Room 102 · square 1/1",
+  "level": {
+    "name": "RAPIDS.TR2",
+    "sha256": "b8bb67296f6fecf4671a246cbba5360f55013fe1a03038c7a7e9d49f866a9962"
+  },
+  "rooms": [
+    102
+  ],
+  "roomColors": {
+    "48": "#4682a9",
+    "31": "#287a54",
+    "102": "#8b52b5",
+    "122": "#284f62"
+  },
+  "objects": [],
+  "hideCeilings": true,
+  "portals": "none",
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      54000,
+      -200,
+      83500
+    ],
+    "target": [
+      51712,
+      1800,
+      80384
+    ],
+    "up": [
+      0,
+      -1,
+      0
+    ],
+    "span": 6000
+  },
+  "output": {
+    "width": 1600,
+    "height": 1000
+  },
+  "waypoints": [
+    {
+      "id": "C",
+      "label": "C · room 102 · 1/1",
+      "position": [
+        51729,
+        3796,
+        80047
+      ],
+      "evidence": "measured",
+      "color": "#ff6675"
+    }
+  ],
+  "lines": [
+    {
+      "kind": "arrow",
+      "label": "Motion",
+      "points": [
+        [
+          51729,
+          3796,
+          80047
+        ],
+        [
+          52014.036016598344,
+          3796,
+          80457.79735788069
+        ]
+      ],
+      "evidence": "measured"
+    },
+    {
+      "kind": "arrow",
+      "label": "Facing",
+      "points": [
+        [
+          51729,
+          3796,
+          80047
+        ],
+        [
+          51529.47478838116,
+          3796,
+          79759.44184948353
+        ]
+      ],
+      "evidence": "measured",
+      "color": "#679cef"
+    },
+    {
+      "kind": "trace",
+      "label": "",
+      "points": [
+        [
+          51729,
+          3796,
+          80047
+        ],
+        [
+          51771,
+          3758,
+          80108
+        ]
+      ],
+      "evidence": "measured"
+    }
+  ],
+  "regions": [],
+  "notes": [
+    "Initial free movement only. Facing is opposite motion because measured speed is negative."
+  ],
+  "displayMode": "color",
+  "coordinates": {
+    "local": false,
+    "world": false
+  },
+  "legend": "Red: reference points / outward direction | Yellow: X/Z guard model | Blue: facing | Evidence in text"
+}

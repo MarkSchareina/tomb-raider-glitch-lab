@@ -1,0 +1,79 @@
+{
+  "format": "glitchlab-scene",
+  "version": 1,
+  "title": "CASE-0016 · OFFICE room 8 · candidate origin",
+  "level": {
+    "name": "OFFICE.TR2",
+    "sha256": "c2c9de7a90d0d20ae74cb973a8e255f6410ecd16d224ff22bc5c109d99365ea2"
+  },
+  "rooms": [
+    8
+  ],
+  "roomColors": {
+    "8": "#667f99"
+  },
+  "objects": [
+    9
+  ],
+  "hideCeilings": true,
+  "portals": "none",
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      43000,
+      -14500,
+      68000
+    ],
+    "target": [
+      35328,
+      -2200,
+      58000
+    ],
+    "up": [
+      0,
+      -1,
+      0
+    ],
+    "span": 11500
+  },
+  "output": {
+    "width": 1600,
+    "height": 1000
+  },
+  "waypoints": [
+    {
+      "id": "R",
+      "label": "R - fitted X/Z origin (model)",
+      "position": [
+        35328.1557,
+        -2176,
+        56338.1605
+      ],
+      "evidence": "model",
+      "color": "#ff6675"
+    },
+    {
+      "id": "sophia",
+      "label": "Sophia - static spawn - 9/13",
+      "position": [
+        35328,
+        -1536,
+        59904
+      ],
+      "evidence": "static",
+      "color": "#ff6675"
+    }
+  ],
+  "lines": [],
+  "regions": [],
+  "notes": [
+    "Fitted X/Z origin; marker Y is an illustrative floor plane, not measured ring height.",
+    "Static Sophia spawn is not her live position at effect creation."
+  ],
+  "coordinates": {
+    "local": false,
+    "world": false
+  },
+  "displayMode": "texture",
+  "legend": "Red: reference points / outward direction | Yellow: X/Z guard model | Blue: facing | Evidence in text"
+}

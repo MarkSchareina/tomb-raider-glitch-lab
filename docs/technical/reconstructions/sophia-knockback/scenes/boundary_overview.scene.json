@@ -1,0 +1,253 @@
+{
+  "format": "glitchlab-scene",
+  "version": 1,
+  "title": "CASE-0016 · Retained origin and ±16000 X/Z boundary",
+  "level": {
+    "name": "RAPIDS.TR2",
+    "sha256": "b8bb67296f6fecf4671a246cbba5360f55013fe1a03038c7a7e9d49f866a9962"
+  },
+  "rooms": [
+    48,
+    31,
+    122,
+    102
+  ],
+  "roomColors": {
+    "48": "#4682a9",
+    "31": "#287a54",
+    "102": "#8b52b5",
+    "122": "#284f62"
+  },
+  "objects": [
+    31
+  ],
+  "hideCeilings": true,
+  "portals": "none",
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      51500,
+      -110000,
+      57000
+    ],
+    "target": [
+      51500,
+      0,
+      57000
+    ],
+    "up": [
+      0,
+      0,
+      -1
+    ],
+    "span": 62000
+  },
+  "output": {
+    "width": 1600,
+    "height": 1000
+  },
+  "waypoints": [
+    {
+      "id": "R",
+      "label": "R · fitted origin\nX/Z (~35328 / 56338)",
+      "position": [
+        35328.1557,
+        0,
+        56338.1605
+      ],
+      "evidence": "model",
+      "labelPosition": [
+        32000,
+        0,
+        58500
+      ],
+      "color": "#ff6675"
+    },
+    {
+      "id": "A",
+      "label": "A · Room 48: 6/8\nX/Z (71039 / 51886)",
+      "position": [
+        71039,
+        -24338,
+        51886
+      ],
+      "evidence": "measured",
+      "labelPosition": [
+        80500,
+        0,
+        48000
+      ],
+      "color": "#ff6675"
+    },
+    {
+      "id": "C",
+      "label": "C · Room 102: 1/1\nX/Z (51729 / 80047)",
+      "position": [
+        51729,
+        3796,
+        80047
+      ],
+      "evidence": "measured",
+      "labelPosition": [
+        49000,
+        0,
+        83000
+      ],
+      "color": "#ff6675"
+    },
+    {
+      "id": "F",
+      "label": "F · Room 79: 1/7 · no hit\nX/Z (34304 / 49664)",
+      "position": [
+        34304,
+        1920,
+        49664
+      ],
+      "evidence": "measured",
+      "color": "#ff6675",
+      "labelPosition": [
+        32000,
+        0,
+        49000
+      ]
+    },
+    {
+      "id": "funnel",
+      "label": "Funnel · Room 62 / flipped 122\nOpening X/Z (51712 / 72192)",
+      "position": [
+        51712,
+        9216,
+        72192
+      ],
+      "labelPosition": [
+        79000,
+        0,
+        75500
+      ],
+      "evidence": "static",
+      "color": "#ff6675"
+    }
+  ],
+  "lines": [
+    {
+      "kind": "arrow",
+      "label": "R to A (X/Z)",
+      "points": [
+        [
+          35328.1557,
+          0,
+          56338.1605
+        ],
+        [
+          71039,
+          0,
+          51886
+        ]
+      ],
+      "color": "#ff6675",
+      "evidence": "model",
+      "labelPosition": [
+        53183.57785,
+        0,
+        54112.08025
+      ]
+    },
+    {
+      "kind": "arrow",
+      "label": "R to C (X/Z)",
+      "points": [
+        [
+          35328.1557,
+          0,
+          56338.1605
+        ],
+        [
+          51729,
+          0,
+          80047
+        ]
+      ],
+      "color": "#ff6675",
+      "evidence": "model",
+      "labelPosition": [
+        43528.57785,
+        0,
+        68192.58025
+      ]
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          35328.1557,
+          0,
+          56338.1605
+        ],
+        [
+          35328.1557,
+          0,
+          40338.1605
+        ]
+      ],
+      "label": "Z: 16000 units\n15.625 squares",
+      "labelPosition": [
+        48000,
+        0,
+        46000
+      ],
+      "color": "#ffdc62",
+      "evidence": "model"
+    }
+  ],
+  "regions": [
+    {
+      "kind": "square",
+      "label": "Guard: ±16000 per axis\nFull width: 31.25 squares",
+      "center": [
+        35328.1557,
+        0,
+        56338.1605
+      ],
+      "radius": 16000,
+      "evidence": "model",
+      "color": "#ffdc62",
+      "stroke": false,
+      "labelPosition": [
+        45000,
+        0,
+        38500
+      ]
+    },
+    {
+      "kind": "circle",
+      "label": "Ordinary ring reach ≤3155",
+      "center": [
+        35328.1557,
+        0,
+        56338.1605
+      ],
+      "radius": 3155,
+      "evidence": "model",
+      "color": "#ffffff",
+      "stroke": true,
+      "labelPosition": [
+        37500,
+        0,
+        63000
+      ]
+    }
+  ],
+  "notes": [
+    "Old fitted source group R06/R07/R09. R Y=0 is an illustrative display plane, not measured ring height.",
+    "Reference-code model, not proof of identical Remastered code. F is a no-hit sample.",
+    "Room 122 is selected explicitly as historical flipped context, not a read of live flip state.",
+    "Dimension ticks are spaced 1024 units (one square); coordinates in labels are world X/Z, local squares are zero-based."
+  ],
+  "displayMode": "color",
+  "coordinates": {
+    "local": false,
+    "world": false
+  },
+  "portalLabels": false,
+  "legend": "Red: reference points / outward direction | Yellow: X/Z guard model | Blue: facing | Evidence in text"
+}

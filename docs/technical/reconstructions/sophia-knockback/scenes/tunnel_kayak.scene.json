@@ -1,0 +1,147 @@
+{
+  "format": "glitchlab-scene",
+  "version": 1,
+  "title": "CASE-0016 · Tunnel / kayak · room 48 → 31",
+  "level": {
+    "name": "RAPIDS.TR2",
+    "sha256": "b8bb67296f6fecf4671a246cbba5360f55013fe1a03038c7a7e9d49f866a9962"
+  },
+  "rooms": [
+    48,
+    31
+  ],
+  "roomColors": {
+    "48": "#4682a9",
+    "31": "#287a54",
+    "102": "#8b52b5",
+    "122": "#284f62"
+  },
+  "objects": [
+    31
+  ],
+  "hideCeilings": true,
+  "portals": "none",
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      81000,
+      -32000,
+      59000
+    ],
+    "target": [
+      74200,
+      -24000,
+      52200
+    ],
+    "up": [
+      0,
+      -1,
+      0
+    ],
+    "span": 11000
+  },
+  "output": {
+    "width": 1600,
+    "height": 1000
+  },
+  "waypoints": [
+    {
+      "id": "A",
+      "label": "A · room 48 · 6/8",
+      "position": [
+        71039,
+        -24338,
+        51886
+      ],
+      "evidence": "measured",
+      "labelPosition": [
+        71039,
+        -27000,
+        51886
+      ],
+      "color": "#ff6675"
+    },
+    {
+      "id": "kayak",
+      "label": "Kayak · room 31 · 6/1",
+      "position": [
+        77312,
+        -23808,
+        51712
+      ],
+      "evidence": "static",
+      "labelPosition": [
+        77312,
+        -23808,
+        50700
+      ],
+      "color": "#ff6675"
+    }
+  ],
+  "lines": [
+    {
+      "kind": "arrow",
+      "label": "Motion",
+      "points": [
+        [
+          71039,
+          -24338,
+          51886
+        ],
+        [
+          72725.97467822216,
+          -24338,
+          51675.960872604046
+        ]
+      ],
+      "evidence": "measured"
+    },
+    {
+      "kind": "arrow",
+      "label": "Facing",
+      "points": [
+        [
+          71039,
+          -24338,
+          51886
+        ],
+        [
+          69947.42814938567,
+          -24338,
+          52021.90767066797
+        ]
+      ],
+      "evidence": "measured",
+      "color": "#679cef"
+    },
+    {
+      "kind": "trace",
+      "label": "",
+      "points": [
+        [
+          71039,
+          -24338,
+          51886
+        ],
+        [
+          71187,
+          -24420,
+          51872
+        ]
+      ],
+      "evidence": "measured"
+    }
+  ],
+  "regions": [],
+  "notes": [
+    "Arrow length is illustrative. Measured segment ends before the portal; kayak arrival is not demonstrated.",
+    "Ceiling faces hidden for this cutaway. Portal markers hidden. Native level coordinates."
+  ],
+  "coordinates": {
+    "local": false,
+    "world": false
+  },
+  "displayMode": "color",
+  "portalLabels": false,
+  "legend": "Red: reference points / outward direction | Yellow: X/Z guard model | Blue: facing | Evidence in text"
+}

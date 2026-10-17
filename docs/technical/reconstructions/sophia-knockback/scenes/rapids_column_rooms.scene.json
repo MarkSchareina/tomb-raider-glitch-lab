@@ -1,0 +1,326 @@
+{
+  "format": "glitchlab-scene",
+  "version": 1,
+  "title": "RAPIDS - all rooms intersecting the reference X/Z column",
+  "level": {
+    "name": "RAPIDS.TR2",
+    "sha256": "b8bb67296f6fecf4671a246cbba5360f55013fe1a03038c7a7e9d49f866a9962"
+  },
+  "rooms": [
+    60,
+    62,
+    63,
+    64,
+    66,
+    67,
+    69,
+    71,
+    73,
+    75,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    94,
+    95,
+    104,
+    108,
+    112,
+    113,
+    115,
+    117,
+    118,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    133,
+    138,
+    139,
+    140,
+    141,
+    142,
+    145
+  ],
+  "roomColors": {
+    "60": "#e0d8a5",
+    "62": "#284f62",
+    "63": "#e0a5a6",
+    "64": "#a5bae0",
+    "66": "#e0a5db",
+    "67": "#a5e0d6",
+    "69": "#b4a5e0",
+    "71": "#e0a5bd",
+    "73": "#dde0a5",
+    "75": "#a5e0c4",
+    "79": "#e0a5d0",
+    "80": "#a5dfe0",
+    "81": "#e0d2a5",
+    "82": "#c1a5e0",
+    "83": "#a5e0af",
+    "84": "#e0a5af",
+    "85": "#a5c2e0",
+    "86": "#d2e0a5",
+    "87": "#dfa5e0",
+    "88": "#a5e0cf",
+    "89": "#e0bfa5",
+    "90": "#aca5e0",
+    "91": "#b2e0a5",
+    "92": "#e0a5c4",
+    "94": "#e0dca5",
+    "95": "#cda5e0",
+    "104": "#a5e0a6",
+    "108": "#d8a5e0",
+    "112": "#bae0a5",
+    "113": "#e0a5cc",
+    "115": "#e0d6a5",
+    "117": "#a5e0b4",
+    "118": "#e0a5aa",
+    "120": "#cee0a5",
+    "121": "#e0a5dd",
+    "122": "#284f62",
+    "123": "#e0c3a5",
+    "124": "#b1a5e0",
+    "125": "#ade0a5",
+    "133": "#c2e0a5",
+    "138": "#a5e0ab",
+    "139": "#e0a5b3",
+    "140": "#a5c5e0",
+    "141": "#d5e0a5",
+    "142": "#dca5e0",
+    "145": "#a8a5e0"
+  },
+  "objects": [],
+  "hideCeilings": true,
+  "portals": "none",
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      148850.48199888947,
+      -110197.78874221316,
+      144819.0371467829
+    ],
+    "target": [
+      33822.10281031072,
+      3083.859269098052,
+      62443.43271748524
+    ],
+    "up": [
+      0,
+      -1,
+      0
+    ],
+    "span": 54396.79990624998
+  },
+  "output": {
+    "width": 1800,
+    "height": 1400
+  },
+  "waypoints": [
+    {
+      "id": "origin",
+      "position": [
+        35328.1557,
+        2944,
+        56338.1605
+      ],
+      "label": "R: fitted X/Z origin",
+      "labelPosition": [
+        57328.1557,
+        2944,
+        78338.1605
+      ],
+      "color": "#ff6675",
+      "evidence": "model"
+    }
+  ],
+  "lines": [],
+  "regions": [],
+  "notes": [
+    "Clip each native room triangle against the four X/Z half-planes, inclusive of boundary contact; no Y limit. Static geometry intersection, not gameplay hit proof. Alternate rooms are separate records.",
+    "All intersecting normal and alternate room records are included together for static reference; this is not a simultaneous live flip state.",
+    "Drawn column ends are display extents only; the reference X/Z test has no Y bound."
+  ],
+  "displayMode": "color",
+  "coordinates": {
+    "local": false,
+    "world": false
+  },
+  "portalLabels": false,
+  "shapes": [
+    {
+      "vertices": [
+        [
+          19328.155700000003,
+          -12448,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          -12448,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          18336,
+          40338.1605
+        ],
+        [
+          19328.155700000003,
+          18336,
+          40338.1605
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "label": "",
+      "color": "#ff394c",
+      "opacity": 0.24,
+      "evidence": "model"
+    },
+    {
+      "vertices": [
+        [
+          51328.1557,
+          -12448,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          -12448,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          18336,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          18336,
+          40338.1605
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "label": "",
+      "color": "#ff394c",
+      "opacity": 0.24,
+      "evidence": "model"
+    },
+    {
+      "vertices": [
+        [
+          51328.1557,
+          -12448,
+          72338.1605
+        ],
+        [
+          19328.155700000003,
+          -12448,
+          72338.1605
+        ],
+        [
+          19328.155700000003,
+          18336,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          18336,
+          72338.1605
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "label": "",
+      "color": "#ff394c",
+      "opacity": 0.24,
+      "evidence": "model"
+    },
+    {
+      "vertices": [
+        [
+          19328.155700000003,
+          -12448,
+          72338.1605
+        ],
+        [
+          19328.155700000003,
+          -12448,
+          40338.1605
+        ],
+        [
+          19328.155700000003,
+          18336,
+          40338.1605
+        ],
+        [
+          19328.155700000003,
+          18336,
+          72338.1605
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "label": "",
+      "color": "#ff394c",
+      "opacity": 0.24,
+      "evidence": "model"
+    }
+  ],
+  "legend": "TRView surface colors | Transparent red sides: reference column, no Y limit | Coverage classification in text",
+  "palette": "trview"
+}

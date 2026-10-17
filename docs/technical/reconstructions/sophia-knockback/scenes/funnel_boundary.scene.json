@@ -1,0 +1,359 @@
+{
+  "format": "glitchlab-scene",
+  "version": 1,
+  "title": "CASE-0016 - Funnel basin: guard corner X 51328 / Z 72338 - no Y limit",
+  "level": {
+    "name": "RAPIDS.TR2",
+    "sha256": "b8bb67296f6fecf4671a246cbba5360f55013fe1a03038c7a7e9d49f866a9962"
+  },
+  "rooms": [
+    122,
+    102,
+    63
+  ],
+  "roomColors": {
+    "48": "#4682a9",
+    "31": "#287a54",
+    "102": "#bd86e8",
+    "122": "#284f62",
+    "63": "#b2bcc5"
+  },
+  "objects": [],
+  "hideCeilings": true,
+  "portals": "none",
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      66000,
+      -35000,
+      96000
+    ],
+    "target": [
+      51000,
+      6000,
+      72300
+    ],
+    "up": [
+      0,
+      -1,
+      0
+    ],
+    "span": 23500
+  },
+  "output": {
+    "width": 1600,
+    "height": 1000
+  },
+  "waypoints": [
+    {
+      "id": "basin",
+      "label": "Funnel: room 62 / flipped 122",
+      "position": [
+        47000,
+        6200,
+        70000
+      ],
+      "labelPosition": [
+        43000,
+        3000,
+        68000
+      ],
+      "evidence": "static",
+      "color": "#ff6675"
+    },
+    {
+      "id": "opening",
+      "label": "Opening to room 63",
+      "position": [
+        51712,
+        9216,
+        72192
+      ],
+      "labelPosition": [
+        59000,
+        6500,
+        72000
+      ],
+      "evidence": "static",
+      "color": "#ff6675"
+    },
+    {
+      "id": "C",
+      "label": "C: room 102, square 1/1",
+      "position": [
+        51729,
+        3796,
+        80047
+      ],
+      "labelPosition": [
+        55000,
+        1800,
+        82300
+      ],
+      "evidence": "measured",
+      "color": "#ff6675"
+    },
+    {
+      "id": "guard_inside",
+      "label": "Inside X/Z guard",
+      "position": [
+        46500,
+        3500,
+        67000
+      ],
+      "labelPosition": [
+        48000,
+        1500,
+        64500
+      ],
+      "evidence": "model",
+      "color": "#ffdc62"
+    },
+    {
+      "id": "guard_outside",
+      "label": "Outside X/Z guard",
+      "position": [
+        57000,
+        3500,
+        76500
+      ],
+      "labelPosition": [
+        62000,
+        2000,
+        76000
+      ],
+      "evidence": "model",
+      "color": "#edf4fa"
+    }
+  ],
+  "lines": [
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          51328.1557,
+          14000,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          1000,
+          72338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          51328.1557,
+          1000,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          14000,
+          72338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          42000,
+          5000,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          5000,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          5000,
+          62000
+        ]
+      ],
+      "label": "",
+      "labelPosition": [
+        49000,
+        -3000,
+        67000
+      ],
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          47000,
+          6200,
+          70000
+        ],
+        [
+          43000,
+          3000,
+          68000
+        ]
+      ],
+      "label": "",
+      "color": "#ff6675",
+      "evidence": "static"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          51712,
+          9216,
+          72192
+        ],
+        [
+          59000,
+          6500,
+          72000
+        ]
+      ],
+      "label": "",
+      "color": "#ff6675",
+      "evidence": "static"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          51729,
+          3796,
+          80047
+        ],
+        [
+          55000,
+          1800,
+          82300
+        ]
+      ],
+      "label": "",
+      "color": "#ff6675",
+      "evidence": "measured"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          46500,
+          3500,
+          67000
+        ],
+        [
+          48000,
+          1500,
+          64500
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          57000,
+          3500,
+          76500
+        ],
+        [
+          62000,
+          2000,
+          76000
+        ]
+      ],
+      "label": "",
+      "color": "#edf4fa",
+      "evidence": "model"
+    }
+  ],
+  "regions": [],
+  "notes": [
+    "Local crop of the older fitted-origin guard; only the two nearby sides are drawn. No Y bound; drawn ends are not limits.",
+    "Room 122 is the historical flipped counterpart of 62, not a measured live flip state. Central opening leads toward room 63; floor portal outline intentionally not drawn."
+  ],
+  "displayMode": "color",
+  "coordinates": {
+    "local": false,
+    "world": false
+  },
+  "portalLabels": false,
+  "shapes": [
+    {
+      "vertices": [
+        [
+          51328.1557,
+          1000,
+          62000
+        ],
+        [
+          51328.1557,
+          1000,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          15000,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          15000,
+          62000
+        ],
+        [
+          42000,
+          1000,
+          72338.1605
+        ],
+        [
+          42000,
+          15000,
+          72338.1605
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          2
+        ]
+      ],
+      "color": "#ffdc62",
+      "opacity": 0.1,
+      "label": "",
+      "evidence": "model"
+    }
+  ],
+  "legend": "Red: reference points / outward direction | Yellow: X/Z guard model | Blue: facing | Evidence in text"
+}

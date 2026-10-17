@@ -1,0 +1,576 @@
+{
+  "source_commit": "80593bffe2b408a5bae960f961ed5bfc1242f2a3",
+  "export": "Committed lab/docs subtree mapped to docs; remote-only assets preserved.",
+  "files": [
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/assets/catalog.js",
+      "bytes": 1294,
+      "sha256": "d01186e2e273afcaa5eadcacfec4af36e6a471738625563eb04647793f286528"
+    },
+    {
+      "path": "docs/assets/site.css",
+      "bytes": 11245,
+      "sha256": "d70dabfbbe6b4adea20771a976abec200a47c87871f1812cd7006190995f1f51"
+    },
+    {
+      "path": "docs/assets/step-images.js",
+      "bytes": 972,
+      "sha256": "2bd92cff7a2e287119fd50685234ce193d01f7468eeb6930382d4396b072d479"
+    },
+    {
+      "path": "docs/assets/step-placeholder.svg",
+      "bytes": 782,
+      "sha256": "8570bfe182369dcbccc2a6c6112b0876454fa2fcf43c1b16bdcf1ad8db5c27ef"
+    },
+    {
+      "path": "docs/games/index.html",
+      "bytes": 1524,
+      "sha256": "a37f01e166061bd0f87614177549bb386f9b226d1ea0392003278ca69c570bb7"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/index.html",
+      "bytes": 4720,
+      "sha256": "0b10c968acfc78e874eeca56c7aaaf9c2de2f01319339ddc36993ab95cef1881"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/media/tr3r/README.md",
+      "bytes": 153,
+      "sha256": "cf3df530b8ebfce4eba37fc5fd1fc45d8d4d2bad2f75da2f27b491616311da87"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/index.html",
+      "bytes": 16286,
+      "sha256": "630730e2880713e914592a8ae5753caede153c91b9e4b08ddba2bfbbc8ee7d47"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/README.md",
+      "bytes": 2776,
+      "sha256": "d4b96b20f848b5d2b868c2a5867a403ae16477f5442b10b2f5a337e5c86dcea5"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/overview-result.jpg",
+      "bytes": 534751,
+      "sha256": "af99ad5244820a7d1b88b969f63f77bfdcabe26b33a75101544d2b163e7d445e"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/overview.jpg",
+      "bytes": 424850,
+      "sha256": "33bb1e604aed26884d7e2d5e2fa5539671ee139aff1e9c57622f7f30f3c6e020"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/01-create-slope-save.jpg",
+      "bytes": 465553,
+      "sha256": "498935417995b6e0398d63b41a84c6859228261a74bab438ddd95e451b0fa62d"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/02-aligned-hollow.jpg",
+      "bytes": 338920,
+      "sha256": "130b2e83322b4664659c6811284d89f9f1ba886727d18ca1a08e739a1c4da43c"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/03-four-backward-hops-and-roll.jpg",
+      "bytes": 490464,
+      "sha256": "83e18460ff9a91e96731a0fb8803fdf1d34e874563ade0ce56a877941af6e65c"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/04-three-walking-groups.jpg",
+      "bytes": 534309,
+      "sha256": "554a176d18f9be402c49ac539517150acde4cd78da063733bb94a0e9208aa706"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/05-lower-angle.jpg",
+      "bytes": 551234,
+      "sha256": "0d5d0a655cecf01b8c24f5feb493333439b20cfc8cb4d2697816ce01c431da76"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/06-upper-pickup-en.jpg",
+      "bytes": 186156,
+      "sha256": "fbd335c4ae3a8ab8ed9f9bb4294bf45b811c2f452a21b218f46018d5ff483392"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/07-crouch-after-buffers-en.jpg",
+      "bytes": 184721,
+      "sha256": "38fb3fdea1d081fa032b09c1977160b35c122f4d4254a91f0d93154af310708d"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/08-save-crouched-state.jpg",
+      "bytes": 233475,
+      "sha256": "841a4299afcf6f43d44d4e97f0b57d79b99a5a0dd6e5df797d338844e796792f"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/09-load-slope-save.jpg",
+      "bytes": 269391,
+      "sha256": "196b2657d3d774ba9da5c8fc15e3032b59a7a060a789296695c958dab44d0de0"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/10-start-sliding.jpg",
+      "bytes": 425772,
+      "sha256": "8351d53be4c253339f82179c388cb4ca8475c2f79b3636d50499ebe0670b7259"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/11-reload-crouch-save.jpg",
+      "bytes": 256895,
+      "sha256": "06002ff77ae73fa2168a155af42f4bc937f39914e90e3f444f8dc76c9f608720"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/steps/12-result-upper-platform.jpg",
+      "bytes": 428740,
+      "sha256": "5568f73fa1ae435d94761feeeb5a80a8cbef836a790385def1707bb784655e10"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/media/videos/tr3-nevada-setup-quick-quad-access.mp4",
+      "bytes": 90661688,
+      "sha256": "4026fc7c35fac289264858f685b502e73070af787f04a18249bae7f3079d754d"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/temple-mudslide/index.html",
+      "bytes": 2631,
+      "sha256": "8a3468915459fb8f1ecd84976ea0ee49796a40af3c0c83c69bdaa9fb557cfd4d"
+    },
+    {
+      "path": "docs/glitches/flare-climb-slide-load/tr3r/temple-mudslide/media/README.md",
+      "bytes": 153,
+      "sha256": "cf3df530b8ebfce4eba37fc5fd1fc45d8d4d2bad2f75da2f27b491616311da87"
+    },
+    {
+      "path": "docs/glitches/index.html",
+      "bytes": 2220,
+      "sha256": "8e304e768d719a6752eb9e6d5cfcd22b45690960b89d28e6375ee3b00f3a9569"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 25367,
+      "sha256": "58b530fc6f5b7c4752bd250afda45ca852bf79e171dff52ef171d3d16180b8a9"
+    },
+    {
+      "path": "docs/research/case-0001/index.html",
+      "bytes": 1977,
+      "sha256": "28dbe4f90b96a3174a333cb937d365efa9f4601e9a19966c369c303ae0e90029"
+    },
+    {
+      "path": "docs/research/case-0002/index.html",
+      "bytes": 2136,
+      "sha256": "143997d03771ac4c25b43fe53725c88cb9b71328722a4cf1f5d6fb86730b0e48"
+    },
+    {
+      "path": "docs/research/case-0003/index.html",
+      "bytes": 2137,
+      "sha256": "269345ff8044a128c5a8a546087c0962432b584c2fdd82660e0732d02e304ba9"
+    },
+    {
+      "path": "docs/research/case-0004/index.html",
+      "bytes": 23113,
+      "sha256": "87b50950ac36b12c1d8074a7b668404b5638082298eaf1ca095bf2f6af92d345"
+    },
+    {
+      "path": "docs/research/case-0005/index.html",
+      "bytes": 2014,
+      "sha256": "6076c7f9cc4d43511b9b7865b1a2d161ebb89730139ad64cffa1bd16960d343b"
+    },
+    {
+      "path": "docs/research/case-0006/index.html",
+      "bytes": 1999,
+      "sha256": "6c8b126ddae94ac0c138be1ce7349c8f54780e3ec94479730cf385b5f79ca11d"
+    },
+    {
+      "path": "docs/research/case-0007/index.html",
+      "bytes": 2010,
+      "sha256": "83fab37a1d6041fb68303ec981ed895dad30ae8c26753d4a156cf88e0b6e07f7"
+    },
+    {
+      "path": "docs/research/case-0008/index.html",
+      "bytes": 1963,
+      "sha256": "ad1019dd6664afaa4e38b023575ceda8f13dc8a7979732b7395e5fe4e4cced85"
+    },
+    {
+      "path": "docs/research/case-0009/index.html",
+      "bytes": 1976,
+      "sha256": "6b535a24c389062338b9d6a48d1a929cfc4646afb48ff350c53b1ab4b3fb15e6"
+    },
+    {
+      "path": "docs/research/case-0010/index.html",
+      "bytes": 1947,
+      "sha256": "15340d7fdea436300e2080d67d9932caf53e30fed63ef85a015c4d21f86dbef1"
+    },
+    {
+      "path": "docs/research/case-0011/index.html",
+      "bytes": 1980,
+      "sha256": "7ad3666b42624fecfd6c97d2b25e0cae8e9764822b6d4aa7b80678d4e2f9e7ea"
+    },
+    {
+      "path": "docs/research/case-0012/index.html",
+      "bytes": 1993,
+      "sha256": "f124a28c1922b7d258f92145039b59b97ac43ff180bc051f7e0926fe593812ff"
+    },
+    {
+      "path": "docs/research/case-0013/index.html",
+      "bytes": 1986,
+      "sha256": "aecda5aea4ae0fba65f4a880259a326a0cc276d988c59b69d2aa5f2ffe9dd71f"
+    },
+    {
+      "path": "docs/research/case-0014/index.html",
+      "bytes": 3399,
+      "sha256": "6d05356f1d565748457bae73d9fbbc0c5892f186868b5bdfa4abdfa31885df3c"
+    },
+    {
+      "path": "docs/research/case-0015/index.html",
+      "bytes": 2897,
+      "sha256": "9002bbdbcf10c4f72f4d1221190c5be76740ec58c0c4c4971ffbf59b8b33d7fe"
+    },
+    {
+      "path": "docs/research/case-0016/index.html",
+      "bytes": 9516,
+      "sha256": "eb3913ea1b88deca51bdece90d17cb01b27a24231723de10185589e21c7f2778"
+    },
+    {
+      "path": "docs/research/index.html",
+      "bytes": 6481,
+      "sha256": "d20e6e3022fa888fa4531e32c4410259d970934b325ffde97a4b3e7e64b3cfaa"
+    },
+    {
+      "path": "docs/technical/index.html",
+      "bytes": 2779,
+      "sha256": "6bc7be3c0ec17240e83daa14eb99687f87d732724b4c91d6d9ab31f8aedd26fa"
+    },
+    {
+      "path": "docs/technical/lua-automation/index.html",
+      "bytes": 4249,
+      "sha256": "e7a7128bbb47e33b3a6beac62f8cda297d930f9fd1f59d505d3831d127d6a6f3"
+    },
+    {
+      "path": "docs/technical/reconstructions/index.html",
+      "bytes": 1722,
+      "sha256": "74be1f4aaaa1d0bc83918b45fa2ff96881efea613450a672c96d04a8ff228c81"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/images/boundary_column.svg",
+      "bytes": 317679,
+      "sha256": "3f970c8e2af1ff0f603e49281718878692b70caed8cb2d04ec001c1bb80afa9e"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/images/boundary_overview.svg",
+      "bytes": 325669,
+      "sha256": "76557dc7207a7b0dd2b626581af9c5efae68ee645208102714dee2178ae97bea"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/images/funnel_boundary.svg",
+      "bytes": 214270,
+      "sha256": "007b7697d90f2974a14cbe678050f5b9290c516f4900c081a8abd627f482d1f2"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/images/office_origin.svg",
+      "bytes": 134356,
+      "sha256": "8adc33e5ac8a4cddf5409f699b64dfc480cd5eeff65a1a37e77e9478baaa8099"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/images/rapids_column_rooms.svg",
+      "bytes": 1804949,
+      "sha256": "9011c2b5df4bc0171ff1f18e1414fc0d0c2a9229fc5d1c1ee1aa3e5f0ab1569b"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/images/room_102.svg",
+      "bytes": 15338,
+      "sha256": "b548ecc1d1687e0faf1d1fc36a31255f7eeeb47165e8c41a200eedc4aaa12248"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/images/tunnel_kayak.svg",
+      "bytes": 101957,
+      "sha256": "84ac70ec468b28d24bee67a9f7e8206e0b180ab083b8a402190d5d40fa1240d8"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/index.html",
+      "bytes": 26280,
+      "sha256": "125b6d6662871721c623df6f6f0ccb904017049b823c04b414fb08d96e443f2f"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/media/box_boundary_crossing.jpg",
+      "bytes": 123425,
+      "sha256": "a4ffc3d5bec903b636a251db1ba216e91abef536b7f807f32835b1265784ae43"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/media/box_boundary_crossing.mp4",
+      "bytes": 14566092,
+      "sha256": "8b630ff8d3bffa1ab2efc6cad5ba2d7f9492d3f8e591353dd3122dfd94b7e6be"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/media/hold_delayed_activation.jpg",
+      "bytes": 162331,
+      "sha256": "7a8059314f6607de4f1531c562fcb262cdd6355133182374e9e2a357913ba808"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/scenes/boundary_column.scene.json",
+      "bytes": 7573,
+      "sha256": "3ca158dfc7d7e685bb6fd1e9a8664d4b4e25ef3a94120e673ede7e3dae1f4ab7"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/scenes/boundary_overview.scene.json",
+      "bytes": 4807,
+      "sha256": "eff2336fa8b94269083dfddeeee08706f2c60ee993b1c33ddb9c0af5f8f8d150"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/scenes/funnel_boundary.scene.json",
+      "bytes": 6063,
+      "sha256": "1b8ae5b1c1f3de6fbf5227a3b0f5369fcd5127dca59d4f076e4977de6290aa82"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/scenes/office_origin.scene.json",
+      "bytes": 1530,
+      "sha256": "935cdc21d65cd585ddef8569a68014de028a1ae3aa8b1846dccdd64e98892914"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/scenes/rapids_column_rooms.scene.json",
+      "bytes": 5684,
+      "sha256": "af4a1f733c3bc69d54b4e2777e94e7377d3ca4a586fcc2640bda33bfb6ef4a93"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/scenes/room_102.scene.json",
+      "bytes": 2118,
+      "sha256": "f6d6603117bd10d291a51df6d9997061e434d49ce16d82b4b8298ebb738d271e"
+    },
+    {
+      "path": "docs/technical/reconstructions/sophia-knockback/scenes/tunnel_kayak.scene.json",
+      "bytes": 2660,
+      "sha256": "004b142702452f0cd93cc8c31e9cb1a25dfe46cde41664b67c435201d3a4aa97"
+    },
+    {
+      "path": "docs/technical/tr1r/index.html",
+      "bytes": 1407,
+      "sha256": "76aee41e0ee5f15e64f995718415e956a9e693de17fbabc7f7d4f39dd89f2622"
+    },
+    {
+      "path": "docs/technical/tr2r/index.html",
+      "bytes": 1407,
+      "sha256": "bf8933fdbf065a79fd56826c244d40e5129468b759aaaab0659c870948c1bb0e"
+    },
+    {
+      "path": "docs/technical/tr3r/index.html",
+      "bytes": 3836,
+      "sha256": "f3fe8c97ba17c5336d0499775fcb369edf05d5f43fdbcc6b491516420192f342"
+    },
+    {
+      "path": "docs/techniques/flare-climb-slide-load/index.html",
+      "bytes": 1317,
+      "sha256": "ad8fe2c7176bcdb0689934a2e826d98808d7bb7a750867b1fc6c6ee4a56f8706"
+    },
+    {
+      "path": "docs/tools/level-inspector/README.md",
+      "bytes": 9994,
+      "sha256": "cb0ab98d3d076b2e16f2abc7697debb73baedc923cd7948eaa8ba6fdf4e7dae5"
+    },
+    {
+      "path": "docs/tools/level-inspector/SCENES.md",
+      "bytes": 5333,
+      "sha256": "86ab983d8aefc6e1508844ce99cdc691a967e169fc5e869b69ebbdeff64c02e3"
+    },
+    {
+      "path": "docs/tools/level-inspector/app.js",
+      "bytes": 40368,
+      "sha256": "1b837475e2f0684feeedd624650c46dfc9b8a4f13d3b1da550e8ccee0edfe777"
+    },
+    {
+      "path": "docs/tools/level-inspector/hover-info.js",
+      "bytes": 3583,
+      "sha256": "db051432262b0268cd9c5e8a6c5ad0512f8738463790af70e95b9170ec977ce1"
+    },
+    {
+      "path": "docs/tools/level-inspector/import-feedback.js",
+      "bytes": 2185,
+      "sha256": "87ef4a5b953ea62debb825fa7503ff1d4e29be7795bd22d2df32351a6d87ede1"
+    },
+    {
+      "path": "docs/tools/level-inspector/index.html",
+      "bytes": 9217,
+      "sha256": "bb26cbdbc5f1796a1f45076a1f25e7d7aaba8448d92ad26908ee6956f989c7db"
+    },
+    {
+      "path": "docs/tools/level-inspector/level-formats.js",
+      "bytes": 627,
+      "sha256": "be1260ff797ca97aa81da02cb7312af7558d4d9c221e8d2df2ac9e17b818f84d"
+    },
+    {
+      "path": "docs/tools/level-inspector/level-import.js",
+      "bytes": 3619,
+      "sha256": "f81e14e15fa4bbcc92078fc89d1784b2264eed6e0c46afbc7464af9f775e5a1b"
+    },
+    {
+      "path": "docs/tools/level-inspector/level-parser.js",
+      "bytes": 340,
+      "sha256": "47053702ebe2a76cbf509f105e35aff46053c01861edd57cd83552e07320dc8f"
+    },
+    {
+      "path": "docs/tools/level-inspector/level-worker.js",
+      "bytes": 517,
+      "sha256": "a6e026dbf853156937bbc5f7491dc20f241289a29aea902208558e1f29d10cc0"
+    },
+    {
+      "path": "docs/tools/level-inspector/local-assets/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "docs/tools/level-inspector/presentation.js",
+      "bytes": 18163,
+      "sha256": "5b1a40128b4f27512e85cf7ac1bc435d7d56c80bdd0c6ec70361b0f083d15d1d"
+    },
+    {
+      "path": "docs/tools/level-inspector/render-job.js",
+      "bytes": 2174,
+      "sha256": "90652d8f2041bc2f6f5a9dec89312ee0bc82cb08eb90640afcf285cf7d96ac25"
+    },
+    {
+      "path": "docs/tools/level-inspector/room-map.js",
+      "bytes": 4310,
+      "sha256": "320b7e577026df8b62e81a040365b2678e018a798c77a86270cc720a28d401d1"
+    },
+    {
+      "path": "docs/tools/level-inspector/scene-builder.js",
+      "bytes": 5550,
+      "sha256": "3ffabd9523a32d6765dc017e9df208c5378ea4b3a8985bc6e0b8b306c598b343"
+    },
+    {
+      "path": "docs/tools/level-inspector/scene-tools.js",
+      "bytes": 2075,
+      "sha256": "9aacd0d90875a4534b99837956f9e3db74ac32e490cb5d40dacff76f855c6bf9"
+    },
+    {
+      "path": "docs/tools/level-inspector/sector-highlight.js",
+      "bytes": 3824,
+      "sha256": "68bdd53636ffac2753ec6bf50c0014873900d7995e08cfc671220564584b7769"
+    },
+    {
+      "path": "docs/tools/level-inspector/sector-inspector.js",
+      "bytes": 7429,
+      "sha256": "6192218fb5f63d07c166c221547e01e92a90d4bd971980c9800b16b4f11b645f"
+    },
+    {
+      "path": "docs/tools/level-inspector/session-cache.js",
+      "bytes": 2696,
+      "sha256": "9185397d54de3cfd4365e4aca24e149169f10f6ca757487d5487e12a69b929c5"
+    },
+    {
+      "path": "docs/tools/level-inspector/standalone.html",
+      "bytes": 2965233,
+      "sha256": "d0c473b5f4eeae6042549525bd6994730029108378dccb7c7e685b43fece38eb"
+    },
+    {
+      "path": "docs/tools/level-inspector/style.css",
+      "bytes": 11061,
+      "sha256": "2732e4677ee4d1d036aba5f32e28c3ad5fe16124bd1a44878a5b579f7685ea81"
+    },
+    {
+      "path": "docs/tools/level-inspector/svg-export.js",
+      "bytes": 5852,
+      "sha256": "a11ec59f77424746a227e7c4adf0bd95460936dfb1719b4dfe39c2f17b0eeef7"
+    },
+    {
+      "path": "docs/tools/level-inspector/ten-import.js",
+      "bytes": 137,
+      "sha256": "b11eeac84538859e8555aafc99a2df4dd1349486ff8caf700f4786fd2f5998d6"
+    },
+    {
+      "path": "docs/tools/level-inspector/ten-parser.js",
+      "bytes": 9239,
+      "sha256": "e5fd2f901db7c848ea227742271a73d9be295eea763576a51e55f5a43bd8b585"
+    },
+    {
+      "path": "docs/tools/level-inspector/ten-worker.js",
+      "bytes": 58,
+      "sha256": "450584f6165b7069ec3e788dbc1650bd709cb7269e16d511900c6db127032988"
+    },
+    {
+      "path": "docs/tools/level-inspector/tr3-parser.js",
+      "bytes": 15991,
+      "sha256": "bd4001f7c47fc98ea1ddf2473fbe8eee7ae3557571f795d707a42c7c8aa75ad8"
+    },
+    {
+      "path": "docs/tools/level-inspector/vendor/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "path": "docs/tools/level-inspector/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "docs/tools/level-inspector/vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "docs/tools/level-inspector/vendor/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "docs/tools/level-inspector/viewer-info.js",
+      "bytes": 43140,
+      "sha256": "72c8467805cb7c2974a4ad0e81c02ab8e3fc05df90bd2600b74389e0c0c4933c"
+    },
+    {
+      "path": "docs/tools/level-inspector/water.js",
+      "bytes": 1333,
+      "sha256": "dc9fdad69797848223305f1f7cbfbe607adb7bf73e745bdbdf232325acd48fea"
+    },
+    {
+      "path": "docs/tools/ten-viewer/index.html",
+      "bytes": 380,
+      "sha256": "2c89621dd36e5b2217880e7747eb415540b01caa4c006975b91c33de43329da4"
+    },
+    {
+      "path": "docs/tools/ten-viewer/standalone.html",
+      "bytes": 395,
+      "sha256": "7b37b07d223be5ab582a1a03145f35d74ee7dc36035ed4324c8016b9db4c60c2"
+    },
+    {
+      "path": "docs/tr1/index.html",
+      "bytes": 1266,
+      "sha256": "6eadfd42a75b3c0ab121c5ad933e22cf9d943d1998216536ef37f3e3de512e73"
+    },
+    {
+      "path": "docs/tr1r/index.html",
+      "bytes": 1348,
+      "sha256": "1974cfdab5edcc0d3e4b2838d0d6c98b5cdf115d1474811638d9bf38fe66a74d"
+    },
+    {
+      "path": "docs/tr2/index.html",
+      "bytes": 1266,
+      "sha256": "5d782bb55e6fe52710178db8031cc9dbfa9483bbb8c69f948608160549432cff"
+    },
+    {
+      "path": "docs/tr2r/index.html",
+      "bytes": 1348,
+      "sha256": "2204950833e7a14828f26e702b7dcb292aceffc7108a25584e43fefb18c0b79d"
+    },
+    {
+      "path": "docs/tr3/index.html",
+      "bytes": 1266,
+      "sha256": "c22448b9cbe55bfe53bec8196bb896eac6ebdf726d2c2d2cff18714e71b019c3"
+    },
+    {
+      "path": "docs/tr3/nevada-quick-quad-access/index.html",
+      "bytes": 1347,
+      "sha256": "020814e37dcdb044f0464bd61c0df31d33fc637b14fc88f16884cbd806c628bd"
+    },
+    {
+      "path": "docs/tr3/nevada-quick-quad-access/media/README.md",
+      "bytes": 153,
+      "sha256": "cf3df530b8ebfce4eba37fc5fd1fc45d8d4d2bad2f75da2f27b491616311da87"
+    },
+    {
+      "path": "docs/tr3/temple-mudslide/index.html",
+      "bytes": 1338,
+      "sha256": "600d432ee0b6ade6159b86795a1577a8dc78fabcc659a3d3c4fca4dc09081fb9"
+    },
+    {
+      "path": "docs/tr3r/index.html",
+      "bytes": 4218,
+      "sha256": "ecab7cec270801dabd9ed75a08d62906adc096456d454ef88a3f1cfa1a6d123a"
+    }
+  ]
+}

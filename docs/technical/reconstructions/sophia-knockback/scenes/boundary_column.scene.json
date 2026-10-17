@@ -1,0 +1,432 @@
+{
+  "format": "glitchlab-scene",
+  "version": 1,
+  "title": "CASE-0016 - Funnel partly inside, partly outside the X/Z guard",
+  "level": {
+    "name": "RAPIDS.TR2",
+    "sha256": "b8bb67296f6fecf4671a246cbba5360f55013fe1a03038c7a7e9d49f866a9962"
+  },
+  "rooms": [
+    48,
+    31,
+    122,
+    102
+  ],
+  "roomColors": {
+    "48": "#4682a9",
+    "31": "#287a54",
+    "102": "#8b52b5",
+    "122": "#284f62"
+  },
+  "objects": [
+    31
+  ],
+  "hideCeilings": true,
+  "portals": "none",
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      -49000,
+      -105000,
+      149000
+    ],
+    "target": [
+      43000,
+      -11000,
+      57000
+    ],
+    "up": [
+      0,
+      -1,
+      0
+    ],
+    "span": 102000
+  },
+  "output": {
+    "width": 1600,
+    "height": 1000
+  },
+  "waypoints": [
+    {
+      "id": "R",
+      "label": "R · fitted X/Z origin",
+      "position": [
+        35328.1557,
+        0,
+        56338.1605
+      ],
+      "evidence": "model",
+      "labelPosition": [
+        26135.767544574883,
+        0.0,
+        47145.77234457488
+      ],
+      "color": "#ff6675"
+    },
+    {
+      "id": "A",
+      "label": "A · Room 48: 6/8",
+      "position": [
+        71039,
+        -24338,
+        51886
+      ],
+      "evidence": "measured",
+      "labelPosition": [
+        91080.18004866558,
+        -27580.322210191745,
+        68614.3725730349
+      ],
+      "color": "#ff6675"
+    },
+    {
+      "id": "C",
+      "label": "C · Room 102: 1/1",
+      "position": [
+        51729,
+        3796,
+        80047
+      ],
+      "evidence": "measured",
+      "labelPosition": [
+        68457.3725730349,
+        7038.322210191745,
+        100088.18004866558
+      ],
+      "color": "#ff6675"
+    }
+  ],
+  "lines": [
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          19328.155700000003,
+          18000,
+          40338.1605
+        ],
+        [
+          19328.155700000003,
+          -44000,
+          40338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          19328.155700000003,
+          -44000,
+          40338.1605
+        ],
+        [
+          19328.155700000003,
+          18000,
+          40338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          51328.1557,
+          18000,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          -44000,
+          40338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          51328.1557,
+          -44000,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          18000,
+          40338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          51328.1557,
+          18000,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          -44000,
+          72338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          51328.1557,
+          -44000,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          18000,
+          72338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          19328.155700000003,
+          18000,
+          72338.1605
+        ],
+        [
+          19328.155700000003,
+          -44000,
+          72338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "arrow",
+      "points": [
+        [
+          19328.155700000003,
+          -44000,
+          72338.1605
+        ],
+        [
+          19328.155700000003,
+          18000,
+          72338.1605
+        ]
+      ],
+      "label": "",
+      "color": "#ffdc62",
+      "evidence": "model"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          35328.1557,
+          0,
+          56338.1605
+        ],
+        [
+          26135.767544574883,
+          0.0,
+          47145.77234457488
+        ]
+      ],
+      "label": "",
+      "color": "#ff6675",
+      "evidence": "model"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          71039,
+          -24338,
+          51886
+        ],
+        [
+          91080.18004866558,
+          -27580.322210191745,
+          68614.3725730349
+        ]
+      ],
+      "label": "",
+      "color": "#ff6675",
+      "evidence": "model"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          51729,
+          3796,
+          80047
+        ],
+        [
+          68457.3725730349,
+          7038.322210191745,
+          100088.18004866558
+        ]
+      ],
+      "label": "",
+      "color": "#ff6675",
+      "evidence": "model"
+    },
+    {
+      "kind": "trace",
+      "points": [
+        [
+          43000,
+          9216,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          9216,
+          72338.1605
+        ],
+        [
+          51328.1557,
+          9216,
+          65000
+        ]
+      ],
+      "label": "Guard at opening height\nFunnel crosses both sides",
+      "labelPosition": [
+        38771.988697653724,
+        11647.741657643808,
+        62266.59430437675
+      ],
+      "color": "#ffdc62",
+      "evidence": "model"
+    }
+  ],
+  "regions": [],
+  "notes": [
+    "Open sides represent an unbounded Y extrusion of the reference X/Z guard. Arrow endpoints are render clipping extents, not collision limits.",
+    "Reference model only; exact Remastered implementation remains unconfirmed.",
+    "Yellow L is a horizontal guard section at opening Y=9216, not the exact intersection with the sloped basin mesh."
+  ],
+  "displayMode": "color",
+  "coordinates": {
+    "local": false,
+    "world": false
+  },
+  "portalLabels": false,
+  "shapes": [
+    {
+      "vertices": [
+        [
+          19328.155700000003,
+          -44000,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          -44000,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          -44000,
+          72338.1605
+        ],
+        [
+          19328.155700000003,
+          -44000,
+          72338.1605
+        ],
+        [
+          19328.155700000003,
+          18000,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          18000,
+          40338.1605
+        ],
+        [
+          51328.1557,
+          18000,
+          72338.1605
+        ],
+        [
+          19328.155700000003,
+          18000,
+          72338.1605
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          1,
+          6,
+          5
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          7,
+          6
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          4,
+          7
+        ]
+      ],
+      "color": "#ffdc62",
+      "opacity": 0.07,
+      "label": "",
+      "evidence": "model"
+    }
+  ],
+  "legend": "Yellow: guard model, no Y limit | Yellow L: section at opening Y=9216 | Red: reference points"
+}
