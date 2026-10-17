@@ -76,6 +76,13 @@ Annotation labels support `\n` line breaks, for example `A · Room 48: 6/8\nX/Z 
 
 **Export SVG** saves the current scene and camera at the scene output dimensions. It contains vector room/object faces, lines, arrows and editable text labels, without textures, viewer UI or PNG title/footer. Textured scenes use room colors; texture-only object detail is omitted. The scene background is retained. The API is `tenViewer.renderSVG()`; the native page tool is `scene_export_svg`.
 
-Faces and lines are clipped to the camera frustum; backfaces are culled and depth is approximated by painter ordering. Intersecting or transparent surfaces may overlap differently from WebGL, so inspect complex scenes before publication. The exporter does not change the active scene.
+Faces and lines are clipped to the camera frustum; backfaces are culled. Filled faces use approximate painter ordering. Intersecting or transparent surfaces may overlap differently from WebGL, so inspect complex scenes before publication. The exporter does not change the active scene.
+
+SVG export retains the camera-facing room surfaces. Surface edges follow their
+faces; opaque foreground faces hide only the covered portions of other edges.
+This visibility calculation does not remove complete wall planes or create
+openings in the level. Transparent guard shapes and annotation overlays do not
+erase background edges. Intersecting filled surfaces still use approximate
+painter ordering.
 
 Standalone SVGs fit the browser viewport while preserving the scene aspect ratio and background. Portal outlines use thin non-scaling SVG strokes instead of the 3D cylinders used on screen.

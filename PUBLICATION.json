@@ -572,5 +572,63 @@
       "bytes": 4218,
       "sha256": "ecab7cec270801dabd9ed75a08d62906adc096456d454ef88a3f1cfa1a6d123a"
     }
+  ],
+  "updates": [
+    {
+      "source_commit": "17180c3490e2a6f6173f2178c981c29fc4ea0b3a",
+      "scope": "SVG depth-tested edge visibility and seven reviewed Sophia illustrations; local handoff only.",
+      "files": [
+        {
+          "path": "docs/technical/reconstructions/sophia-knockback/images/boundary_column.svg",
+          "bytes": 273425,
+          "sha256": "858cc04f7a57129d73cc96e0ad56edd43f052dace0c686d35e2d34e17983590b"
+        },
+        {
+          "path": "docs/technical/reconstructions/sophia-knockback/images/boundary_overview.svg",
+          "bytes": 323055,
+          "sha256": "efb6a14987e99c9dfaff804fc51f799a45154526346ea185bfebdb2572d2ac34"
+        },
+        {
+          "path": "docs/technical/reconstructions/sophia-knockback/images/funnel_boundary.svg",
+          "bytes": 209412,
+          "sha256": "cef3c5b965a7f060497983b8547d689fa5544cc22255b9fe8ce6d9ec51a3b071"
+        },
+        {
+          "path": "docs/technical/reconstructions/sophia-knockback/images/office_origin.svg",
+          "bytes": 131650,
+          "sha256": "9bb427cefb74e378b324cc176966cb99573ae09853790878ac27444fbeea6fa9"
+        },
+        {
+          "path": "docs/technical/reconstructions/sophia-knockback/images/rapids_column_rooms.svg",
+          "bytes": 1236443,
+          "sha256": "83ce6f4dfd86815c64d93a12f26159f899337bf7e25f30a42341afc8add468a8"
+        },
+        {
+          "path": "docs/technical/reconstructions/sophia-knockback/images/room_102.svg",
+          "bytes": 13748,
+          "sha256": "756e9a5e93206978888001f4f29bdc89d4f7dfe22c1f837b730097a3222ee6c3"
+        },
+        {
+          "path": "docs/technical/reconstructions/sophia-knockback/images/tunnel_kayak.svg",
+          "bytes": 78317,
+          "sha256": "3a835757995bd2cb4652f32a47a5f90829d426c4aba0608aab128868d3d22d0b"
+        },
+        {
+          "path": "docs/tools/level-inspector/SCENES.md",
+          "bytes": 5739,
+          "sha256": "80d9dd5907bfcaa9009f4fdc14f3bd0222f1a6c38f04ef0d824a3d230573d1c4"
+        },
+        {
+          "path": "docs/tools/level-inspector/standalone.html",
+          "bytes": 2973097,
+          "sha256": "ab73ec8df9b192a6b9092f97d820982f07e339f06e81e450bb4340461103b5f4"
+        },
+        {
+          "path": "docs/tools/level-inspector/svg-export.js",
+          "bytes": 8997,
+          "sha256": "f0910ce3e1570fb1dafeef7b83f07c8aaf8bd434509248d7d93748e329561b55"
+        }
+      ]
+    }
   ]
 }
