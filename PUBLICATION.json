@@ -629,6 +629,17 @@
           "sha256": "f0910ce3e1570fb1dafeef7b83f07c8aaf8bd434509248d7d93748e329561b55"
         }
       ]
+    },
+    {
+      "source_commit": "66e4ed5598258e094c4c0935bba600790bf5308c",
+      "scope": "Synchronize offline Inspector bundle with already committed selection and palette UI sources; local handoff only.",
+      "files": [
+        {
+          "path": "docs/tools/level-inspector/standalone.html",
+          "bytes": 2974269,
+          "sha256": "32a41e42adfd8d68b3a46c93a7ee201513daca4168069e311da7f0c703e771f2"
+        }
+      ]
     }
   ]
 }
