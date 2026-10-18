@@ -1,111 +1,75 @@
 # Tomb Raider Glitch Lab
 
-English guides, research and reproduction tools for Tomb Raider Remastered.
+Glitch guides, research notes and interactive level inspection for Tomb Raider.
+The initial focus is Tomb Raider I–III Remastered, with separate research cases
+for the original games, community engines and custom levels.
 
-Repository: https://github.com/MarkSchareina/tomb-raider-glitch-lab
+**[Explore the Glitch Lab](https://markschareina.github.io/tomb-raider-glitch-lab/)**
 
-Website: https://MarkSchareina.github.io/tomb-raider-glitch-lab/
+## Explore
 
-## Structure
+| Section | What you will find |
+| --- | --- |
+| [Research catalogue](https://markschareina.github.io/tomb-raider-glitch-lab/research/) | Cases identified by ID and name, including unfinished investigations, evidence gaps and next steps. |
+| [Glitch guides](https://markschareina.github.io/tomb-raider-glitch-lab/glitches/flare-climb-slide-load/) | Technique explanations and level-specific applications, including Temple Mudslide and Nevada Quick Quad Access. |
+| [Technical reference](https://markschareina.github.io/tomb-raider-glitch-lab/technical/) | Game-specific technical documentation and analysis. |
+| [Mechanism reconstructions](https://markschareina.github.io/tomb-raider-glitch-lab/technical/reconstructions/) | Illustrated explanations, including Sophia knockback, with scoped evidence and limitations. |
+| [Level Inspector](https://markschareina.github.io/tomb-raider-glitch-lab/tools/level-inspector/) | Explore local level geometry, textures, rooms, sectors, portals and triggers in your browser. |
 
-```text
-docs/                                      GitHub Pages web root
-  index.html                               Collection homepage
-  assets/site.css                          Shared design
-  glitches/flare-climb-slide-load/
-    index.html                             Complete technique and compatibility
-    media/tr3r/                            Game-labelled technique demonstrations
-    tr3r/
-      temple-mudslide/index.html            Existing publication entry
-      nevada-quick-quad-access/index.html   Quick Reproduce, then detailed evidence
-        media/                             Application-specific videos
-  tr1r/, tr2r/, tr3r/                       Game indexes linking to canonical guides
-  technical/
-    index.html                             Technical reference index
-    tr1r/, tr2r/, tr3r/                     Separate game-specific offsets
-    lua-automation/index.html              Existing protocol and future live workflow
-content/guides/                            Approved English guide sources and approval metadata
-research/                                  Structured evidence registers and experiment records
-  tr3r/nevada/README.md                     Current approval scope and evidence register
-  tr3r/nevada/archive/                      Preserved historical trials
-automation/                                Future portable replay tools
-tools/build_site.py                        Static page generator
-tools/check_links.py                       Local HTML link validation
-```
+## Reading the evidence
 
-Each application has one canonical page under its complete glitch technique.
-Game indexes provide a second navigation path without duplicating content.
-Older draft paths contain links to the canonical pages.
+The catalogue includes **unverified**, **partial** and **reproduced** cases as
+well as any fully **verified** results. A listed case is not automatically a
+working recipe. A historical reproduction may still lack a qualified proof
+video or exact build information; each case states its remaining limitations.
 
-## Page design
+Results are scoped to the game, executable build, level revision and controls.
+Tank and Modern Controls are assessed separately. Diagnostic position or state
+writes are distinguished from input-only gameplay. Findings from an original
+game or community engine do not establish the same behavior in Remastered.
 
-1. Introduction and application video when available.
-2. Overview images, status and prerequisites.
-3. Quick Reproduce: inputs and expected outcome.
-4. Detailed explanation, measurements and limitations below.
+## Level Inspector
 
-Memory offsets and the Lua bridge belong in the separate technical section.
-Game adapters must be independently validated. Live automation is planned;
-the static website itself does not control Cheat Engine or the game.
+Open the [browser viewer](https://markschareina.github.io/tomb-raider-glitch-lab/tools/level-inspector/)
+and choose or drop a supported level file. Files are processed locally and are
+not uploaded. The viewer supports **TombEngine 1.10.1.0** and **TR3 PC level
+data**, including classic `.TR2` levels shipped with Remastered. A `.TR2` suffix
+alone does not imply support for the TR2 game format.
 
-## Build and check
+For offline use, download [standalone.html](https://markschareina.github.io/tomb-raider-glitch-lab/tools/level-inspector/standalone.html)
+and open the saved file in your browser. No installation or local server is
+needed. The inspector displays level data; it does not simulate gameplay or
+dynamic collision. See the [viewer documentation](docs/tools/level-inspector/README.md)
+for format support and limitations. Game assets are not included.
+
+## Preview this repository
+
+This is the **publication repository**. The prepared website is in `docs/` and
+can be served directly from a checkout:
 
 ```sh
-python tools/build_site.py
-python tools/check_links.py
-python tools/check_content.py
 python -m http.server 8080 --directory docs
 ```
 
-Open http://localhost:8080/. No third-party build dependencies, remote fonts or trackers.
-Edit the approved Nevada guide in `content/guides/nevada-setup.json`; its HTML and
-catalogue status are generated from that one source. Other existing page bodies
-remain in `tools/build_site.py`. Edit styling in `docs/assets/site.css`.
-See [the content workflow](content/README.md) before changing an approved recipe.
+Open [localhost:8080](http://localhost:8080/). No site build is required to preview
+the published files.
 
-## Publish with GitHub Pages
+## Maintenance and publication
 
-After committing and pushing the reviewed content, in Settings > Pages select
-Deploy from a branch, branch `main`, folder `/docs`.
+The maintained research catalogue and site generator live in a separate research
+workspace. Its canonical case records generate the research pages; curated
+guides retain their own approval scope. Reviewed, committed site files are
+exported into this repository's `docs/` directory.
 
-Documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+[PUBLICATION.json](PUBLICATION.json) records source commits and exported file
+hashes. Older `content/`, `research/`, `automation/` and `tools/` files remain as
+publication history; they are not a complete current research workspace or a
+supported way to rebuild the current site.
 
-Guide URL pattern:
-`https://MarkSchareina.github.io/tomb-raider-glitch-lab/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/`
+The publication handoff prepares a local commit on `main`. The operator reviews
+and pushes it; local commits do not deploy the website. The documented GitHub
+Pages publication source is `main:/docs`.
 
-All internal links are relative, so repository-prefixed project URLs work.
-The existing Temple Mudslide publication is unchanged and linked externally.
-The compressed Nevada video is included. Its uncompressed original is kept locally and excluded from Git.
-
-## Nevada status
-
-Title: TR3R Nevada – Quick Quad Access Flare Climb.
-The current English [Setup](docs/glitches/flare-climb-slide-load/tr3r/nevada-quick-quad-access/index.html)
-is generated from [revision 1](content/guides/nevada-setup.json), approved 2026-09-28.
-Use the name **Setup**. Positioning, ten lower angle buffers and visible sinking
-into crouch were manually confirmed. Upper buffer count depends on pickup timing:
-15 from frame 8701 in the manual trial; 19 from frame 8693 in the automated trial.
-See the [evidence register](research/tr3r/nevada/README.md) for approval scope,
-historical results and open questions. The older Lua runner remains historical
-and is not live-validated against this revision.
-
-Do not publish local saves, raw logs or machine-specific paths without review.
-Files outside `docs` are not served by Pages but are still visible in a public repository.
-
-## Catalogue and consistent metadata
-
-Edit `content/catalog.json` for titles, game, level, technique, status, search tags and summaries. The same records supply homepage cards and application-page metadata. For entries with `guide_source`, status and summary come from that approved guide source; do not duplicate them in the catalogue. Rebuild with `python tools/build_site.py`. New guide bodies still need a page definition.
-
-The homepage supports text search plus game/type filters without a backend. The complete catalogue remains readable without JavaScript. Level names: Temple Ruins and Nevada Desert (TR3R).
-
-
-## Glitch Lab · Level Inspector
-
-[Open the viewer](docs/tools/ten-viewer/index.html) on the site, or download
-[the standalone HTML](docs/tools/ten-viewer/standalone.html) for offline use.
-Choose or drag a TEN 1.10.1.0 or TR3 PC (.TR2) level into it. The file stays on the user's device.
-
-The single maintained source is `docs/tools/ten-viewer/`. The normal site build
-also generates the offline HTML from those same modules. See the
-[viewer documentation](docs/tools/ten-viewer/README.md) for format support,
-limitations, verification and same-origin iframe integration.
+Only reviewed publication assets belong here. Raw recordings, saves, live
+sessions and game installations remain outside the publication export. Files
+outside `docs/` are also publicly visible when committed to this repository.

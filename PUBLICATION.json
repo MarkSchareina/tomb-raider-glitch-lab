@@ -640,6 +640,17 @@
           "sha256": "32a41e42adfd8d68b3a46c93a7ee201513daca4168069e311da7f0c703e771f2"
         }
       ]
+    },
+    {
+      "source_commit": "e3557b39c0ab43d515ef4c32201f9334ee05f532",
+      "scope": "Refresh repository README with current catalogue, Inspector and publication workflow; documentation-only local handoff.",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 4208,
+          "sha256": "5a5bc298116714b98f0055a5c360021a4f04d09fcda789c69d688f5391ae3fa8"
+        }
+      ]
     }
   ]
 }
